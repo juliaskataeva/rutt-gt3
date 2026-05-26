@@ -1,0 +1,2348 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Лесопожарный грунтомёт РУТТ ГТ-3 — Технотранс</title>
+  <meta name="description" content="РУТТ ГТ-3 — навесной лесопожарный грунтомёт для МТЗ 1221 / МУЛ 1221. Дальность метания грунта до 30 м, поставка, лизинг, демонстрация.">
+  <meta name="keywords" content="лесопожарный грунтомёт, грунтомёт РУТТ ГТ-3, РУТТ ГТ-3, техника для тушения лесных пожаров, техника для минерализованных полос, грунтомёт для лесных пожаров, оборудование для лесопожарных служб, навесное оборудование для тушения лесных пожаров, минерализованная полоса техника, лесопожарная техника российского производства, грунтомёт для МТЗ 1221, грунтомёт для МУЛ 1221">
+  <meta property="og:title" content="Лесопожарный грунтомёт РУТТ ГТ-3 — Технотранс">
+  <meta property="og:description" content="Навесной лесопожарный грунтомёт для локализации кромки низовых лесных пожаров. Дальность метания грунта до 30 м. Поставка, лизинг, демонстрация.">
+  <meta property="og:type" content="website">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Oswald:wght@500;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    /* ─── ПЕРЕМЕННЫЕ ─── */
+    :root {
+      --bg-dark:       #0d0d0d;
+      --bg-mid:        #141414;
+      --bg-card:       #1a1a1a;
+      --bg-card2:      #202020;
+      --border:        #272727;
+      --border-light:  #333333;
+      --yellow:        #E8691A;
+      --yellow-dk:     #C2520D;
+      --yellow-lt:     #F5853A;
+      --amber:         #F97316;
+      --green:         #3a6330;
+      --green-lt:      #4a7f3e;
+      --white:         #ffffff;
+      --text-h:        #f5f3ef;
+      --text-p:        #b8b0a0;
+      --text-dim:      #6a6258;
+      --radius:        8px;
+      --radius-lg:     14px;
+      --shadow:        0 8px 40px rgba(0,0,0,.7);
+      --shadow-glow:   0 0 30px rgba(232,105,26,.15);
+      --max-w:         1160px;
+      --font-body:     'Inter', 'Segoe UI', Arial, sans-serif;
+      --font-display:  'Oswald', 'Arial Narrow', Arial, sans-serif;
+    }
+
+    /* ─── СБРОС ─── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: var(--font-body);
+      background: var(--bg-dark);
+      color: var(--text-p);
+      line-height: 1.65;
+      font-size: 16px;
+    }
+    a { color: var(--yellow); text-decoration: none; }
+    a:hover { color: var(--yellow-lt); }
+    img { max-width: 100%; display: block; }
+
+    /* ─── УТИЛИТЫ ─── */
+    .wrap   { max-width: var(--max-w); margin: 0 auto; padding: 0 24px; }
+    .sec    { padding: 60px 0; }
+    .sec-m  { background: var(--bg-mid); }
+    .sec-dk { background: var(--bg-dark); }
+
+    .section-label {
+      display: inline-flex;
+      align-items: center;
+      gap: 7px;
+      background: rgba(232,188,80,.08);
+      color: var(--yellow);
+      font-family: var(--font-body);
+      font-size: .72rem;
+      font-weight: 700;
+      letter-spacing: .14em;
+      text-transform: uppercase;
+      padding: 6px 14px;
+      border-radius: 999px;
+      border: 1px solid rgba(232,188,80,.3);
+      margin-bottom: 16px;
+    }
+    .section-label::before {
+      content: '';
+      width: 5px;
+      height: 5px;
+      background: var(--yellow);
+      border-radius: 50%;
+      flex-shrink: 0;
+    }
+    .section-label.green {
+      background: rgba(74,127,62,.12);
+      color: #7bc46f;
+      border-color: rgba(74,127,62,.35);
+    }
+    .section-label.green::before { background: #7bc46f; }
+
+    .divider {
+      width: 56px;
+      height: 2px;
+      background: linear-gradient(90deg, var(--yellow), transparent);
+      margin: 14px 0 30px;
+      border-radius: 1px;
+    }
+
+    h2.sec-title {
+      font-family: var(--font-display);
+      font-size: clamp(1.7rem, 3.2vw, 2.4rem);
+      font-weight: 600;
+      color: var(--text-h);
+      line-height: 1.15;
+      letter-spacing: .01em;
+      margin-bottom: 12px;
+    }
+    h2.sec-title span { color: var(--yellow); }
+
+    .sec-sub {
+      color: var(--text-p);
+      font-size: 1.05rem;
+      max-width: 680px;
+      margin-bottom: 48px;
+      line-height: 1.75;
+    }
+
+    /* ─── КНОПКИ ─── */
+    .btn {
+      display: inline-block;
+      padding: 14px 32px;
+      font-family: var(--font-body);
+      font-size: .95rem;
+      font-weight: 700;
+      border-radius: 8px;
+      cursor: pointer;
+      border: 2px solid transparent;
+      transition: all .22s cubic-bezier(.4,0,.2,1);
+      text-align: center;
+      letter-spacing: .04em;
+      white-space: nowrap;
+    }
+    .btn-primary {
+      background: var(--yellow);
+      color: #0a0a0a;
+      border-color: var(--yellow);
+      box-shadow: 0 2px 16px rgba(232,188,80,.2);
+    }
+    .btn-primary:hover {
+      background: var(--yellow-lt);
+      border-color: var(--yellow-lt);
+      color: #000;
+      transform: translateY(-2px);
+      box-shadow: 0 8px 28px rgba(232,188,80,.35);
+    }
+    .btn-outline {
+      background: transparent;
+      color: var(--yellow);
+      border-color: rgba(232,188,80,.5);
+    }
+    .btn-outline:hover {
+      background: rgba(232,188,80,.1);
+      border-color: var(--yellow);
+      transform: translateY(-2px);
+    }
+    .btn-sm { padding: 10px 22px; font-size: .88rem; }
+    .btn-group { display: flex; gap: 14px; flex-wrap: wrap; margin-top: 32px; }
+
+    /* ─── ХЕДЕР ─── */
+    #site-header {
+      position: sticky;
+      top: 0;
+      z-index: 200;
+      background: rgba(10,10,10,.96);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      border-bottom: 1px solid rgba(255,255,255,.06);
+    }
+    nav.main-nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      max-width: var(--max-w);
+      margin: 0 auto;
+      padding: 14px 24px;
+    }
+    .logo-group {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      flex-shrink: 0;
+    }
+    /* Логотип-знак */
+    .logo-mark {
+      display: flex;
+      align-items: center;
+      gap: 2px;
+    }
+    .logo-rutt {
+      font-family: var(--font-display);
+      font-size: 1.7rem;
+      font-weight: 700;
+      color: var(--yellow);
+      letter-spacing: .22em;
+      text-transform: uppercase;
+      line-height: 1;
+      /* Тонкая обводка как у знакового лого */
+      -webkit-text-stroke: 0px;
+      text-shadow: 0 0 20px rgba(232,105,26,.4);
+    }
+    .logo-rutt span { color: var(--white); }
+    .logo-model {
+      font-family: var(--font-display);
+      font-size: .68rem;
+      font-weight: 500;
+      color: rgba(232,105,26,.6);
+      letter-spacing: .16em;
+      text-transform: uppercase;
+      margin-left: 3px;
+      align-self: flex-end;
+      margin-bottom: 3px;
+    }
+    .logo-sep {
+      width: 1px;
+      height: 26px;
+      background: var(--border-light);
+      opacity: .5;
+    }
+    .logo-tech {
+      font-size: .74rem;
+      font-weight: 600;
+      color: var(--text-dim);
+      letter-spacing: .06em;
+      line-height: 1.4;
+      text-transform: uppercase;
+    }
+    .logo-tech b { color: var(--text-p); font-weight: 700; }
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 28px;
+    }
+    .nav-links a {
+      font-size: .84rem;
+      font-weight: 500;
+      color: var(--text-dim);
+      letter-spacing: .04em;
+      transition: color .18s;
+      position: relative;
+    }
+    .nav-links a::after {
+      content: '';
+      position: absolute;
+      bottom: -3px;
+      left: 0;
+      width: 0;
+      height: 1px;
+      background: var(--yellow);
+      transition: width .2s;
+    }
+    .nav-links a:hover { color: var(--yellow); }
+    .nav-links a:hover::after { width: 100%; }
+    .nav-cta { margin-left: 6px; }
+
+    /* ─── ГЕРОЙ ─── */
+    #hero {
+      position: relative;
+      overflow: hidden;
+      background: var(--bg-dark);
+      line-height: 0; /* убирает зазор под inline-img */
+    }
+    .hero-bg {
+      width: 100%;
+    }
+    .hero-bg img {
+      width: 100%;
+      height: auto;
+      max-height: 80vh;
+      object-fit: contain;
+      object-position: center;
+      display: block;
+    }
+    .hero-tag {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(232,188,80,.1);
+      color: var(--yellow);
+      font-family: var(--font-body);
+      font-size: .72rem;
+      font-weight: 700;
+      letter-spacing: .14em;
+      text-transform: uppercase;
+      padding: 6px 14px;
+      border-radius: 999px;
+      border: 1px solid rgba(232,188,80,.3);
+      margin-bottom: 28px;
+    }
+    .hero-tag::before {
+      content: '';
+      width: 5px;
+      height: 5px;
+      background: var(--yellow);
+      border-radius: 50%;
+    }
+    #hero h1 {
+      font-family: var(--font-display);
+      font-size: clamp(2rem, 5vw, 3.6rem);
+      font-weight: 600;
+      color: var(--text-h);
+      line-height: 1.12;
+      max-width: 780px;
+      margin-bottom: 22px;
+      letter-spacing: .01em;
+      text-shadow: 0 2px 20px rgba(0,0,0,.5);
+    }
+    #hero h1 em {
+      color: var(--yellow);
+      font-style: normal;
+    }
+    .hero-sub {
+      font-size: clamp(.95rem, 1.5vw, 1.08rem);
+      color: var(--text-p);
+      max-width: 600px;
+      margin-bottom: 38px;
+      line-height: 1.75;
+    }
+    .hero-badges {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      margin-bottom: 42px;
+    }
+    .hero-badge {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(255,255,255,.05);
+      border: 1px solid rgba(232,188,80,.25);
+      border-radius: 6px;
+      padding: 8px 15px;
+      font-size: .86rem;
+      color: var(--text-h);
+      font-weight: 500;
+      backdrop-filter: blur(4px);
+    }
+    .hero-badge .dot {
+      width: 6px;
+      height: 6px;
+      background: var(--yellow);
+      border-radius: 50%;
+      flex-shrink: 0;
+    }
+
+    /* ─── КЛЮЧЕВЫЕ ПОКАЗАТЕЛИ ─── */
+    .stats-row {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 1px;
+      background: var(--border);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      margin-top: 24px;
+    }
+    .stat-item {
+      background: var(--bg-card);
+      padding: 26px 20px;
+      text-align: center;
+      transition: background .2s;
+    }
+    .stat-item:hover { background: #1e1e1e; }
+    .stat-val {
+      font-family: var(--font-display);
+      font-size: 2.2rem;
+      font-weight: 700;
+      color: var(--yellow);
+      line-height: 1;
+      margin-bottom: 7px;
+      letter-spacing: .01em;
+    }
+    .stat-label {
+      font-size: .78rem;
+      color: var(--text-p);
+      line-height: 1.4;
+      font-weight: 500;
+    }
+
+    /* ─── ПРОБЛЕМА ─── */
+    .problem-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 16px;
+    }
+    .problem-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-left: 2px solid var(--yellow-dk);
+      border-radius: var(--radius);
+      padding: 26px 28px;
+      transition: border-color .2s, transform .2s;
+    }
+    .problem-card:hover {
+      border-color: rgba(232,188,80,.4);
+      border-left-color: var(--yellow);
+      transform: translateY(-2px);
+    }
+    .problem-card .ico {
+      width: 40px;
+      height: 40px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 14px;
+      opacity: .85;
+    }
+    .problem-card h3 {
+      font-family: var(--font-display);
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: var(--text-h);
+      margin-bottom: 8px;
+      letter-spacing: .02em;
+    }
+    .problem-card p {
+      font-size: .9rem;
+      color: var(--text-p);
+      line-height: 1.65;
+    }
+
+    /* ─── РЕШЕНИЕ ─── */
+    .solution-layout {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 60px;
+      align-items: start;
+    }
+    .solution-step {
+      display: flex;
+      gap: 18px;
+      margin-bottom: 24px;
+    }
+    .step-num {
+      flex-shrink: 0;
+      width: 36px;
+      height: 36px;
+      background: var(--yellow);
+      color: #000;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-weight: 800;
+      font-size: .95rem;
+      margin-top: 2px;
+    }
+    .step-body h4 {
+      font-size: 1rem;
+      font-weight: 700;
+      color: var(--text-h);
+      margin-bottom: 5px;
+    }
+    .step-body p { font-size: .92rem; color: var(--text-p); line-height: 1.6; }
+    .solution-photo {
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      box-shadow: var(--shadow);
+    }
+    .solution-photo img { width: 100%; height: 420px; object-fit: cover; }
+
+    /* ─── 3 ФУНКЦИИ ─── */
+    .functions-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1px;
+      background: var(--border);
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      border: 1px solid var(--border);
+    }
+    .func-card {
+      background: var(--bg-card);
+      padding: 38px 30px;
+      position: relative;
+      transition: background .2s;
+    }
+    .func-card::after {
+      content: '';
+      position: absolute;
+      bottom: 0;
+      left: 30px;
+      right: 30px;
+      height: 1px;
+      background: linear-gradient(90deg, transparent, rgba(232,188,80,.15), transparent);
+    }
+    .func-card:hover { background: #1e1e1e; }
+    .func-num {
+      font-family: var(--font-display);
+      font-size: 3.5rem;
+      font-weight: 700;
+      color: var(--yellow);
+      line-height: 1;
+      margin-bottom: 18px;
+      opacity: .5;
+      letter-spacing: -.02em;
+    }
+    .func-icon {
+      width: 52px;
+      height: 52px;
+      margin-bottom: 18px;
+    }
+    .func-card h3 {
+      font-family: var(--font-display);
+      font-size: 1.1rem;
+      font-weight: 600;
+      color: var(--text-h);
+      margin-bottom: 10px;
+      line-height: 1.25;
+      letter-spacing: .02em;
+    }
+    .func-card p { font-size: .9rem; color: var(--text-p); line-height: 1.65; }
+    .func-spec {
+      display: inline-block;
+      margin-top: 16px;
+      background: rgba(232,188,80,.1);
+      border: 1px solid rgba(232,188,80,.25);
+      border-radius: 6px;
+      padding: 5px 12px;
+      font-size: .8rem;
+      font-weight: 700;
+      color: var(--yellow);
+      letter-spacing: .04em;
+    }
+
+    /* ─── ПРИМЕНЕНИЕ ─── */
+    .app-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px;
+    }
+    .app-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 22px 22px;
+      display: flex;
+      gap: 14px;
+      align-items: flex-start;
+    }
+    .app-card .app-ico {
+      flex-shrink: 0;
+      width: 38px;
+      height: 38px;
+      background: rgba(229,184,74,.1);
+      border-radius: var(--radius);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .app-card p { font-size: .92rem; color: var(--text-p); line-height: 1.55; font-weight: 500; }
+
+    /* ─── ДЛЯ КОГО ─── */
+    .audience-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px;
+    }
+    .aud-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 24px 22px;
+    }
+    .aud-card h4 {
+      font-size: .95rem;
+      font-weight: 700;
+      color: var(--text-h);
+      margin-bottom: 8px;
+    }
+    .aud-card p { font-size: .88rem; color: var(--text-p); line-height: 1.55; }
+    .aud-card .aud-tag {
+      display: inline-block;
+      background: rgba(74,127,62,.2);
+      border: 1px solid var(--green-lt);
+      color: #7bc46f;
+      font-size: .72rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: .08em;
+      padding: 3px 9px;
+      border-radius: 3px;
+      margin-bottom: 12px;
+    }
+
+    /* ─── ХАРАКТЕРИСТИКИ ─── */
+    .specs-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: .93rem;
+    }
+    .specs-table th,
+    .specs-table td {
+      padding: 13px 18px;
+      text-align: left;
+      border-bottom: 1px solid var(--border);
+    }
+    .specs-table th {
+      background: rgba(229,184,74,.08);
+      color: var(--text-h);
+      font-weight: 700;
+      font-size: .8rem;
+      text-transform: uppercase;
+      letter-spacing: .07em;
+    }
+    .specs-table tr:nth-child(even) td { background: rgba(255,255,255,.02); }
+    .specs-table td:first-child { color: var(--text-p); width: 55%; }
+    .specs-table td:last-child { color: var(--text-h); font-weight: 600; }
+    .specs-note {
+      margin-top: 20px;
+      padding: 14px 18px;
+      background: rgba(229,184,74,.06);
+      border-left: 3px solid var(--yellow-dk);
+      border-radius: 0 4px 4px 0;
+      font-size: .88rem;
+      color: var(--text-dim);
+      line-height: 1.6;
+    }
+
+    /* ─── КАК РАБОТАЕТ ─── */
+    .howworks-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 24px;
+    }
+    .hw-step {
+      background: rgba(20,20,20,.85);
+      border: 1px solid rgba(232,188,80,.15);
+      border-radius: var(--radius-lg);
+      padding: 30px 24px 26px;
+      position: relative;
+      backdrop-filter: blur(8px);
+      -webkit-backdrop-filter: blur(8px);
+      transition: border-color .2s, transform .2s;
+    }
+    .hw-step:hover {
+      border-color: rgba(232,188,80,.35);
+      transform: translateY(-3px);
+    }
+    .hw-step-n {
+      position: absolute;
+      top: -14px;
+      left: 22px;
+      width: 30px;
+      height: 30px;
+      background: var(--yellow);
+      color: #000;
+      border-radius: 50%;
+      font-weight: 800;
+      font-size: .85rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: 0 2px 12px rgba(232,188,80,.4);
+    }
+    .hw-step h4 {
+      font-family: var(--font-display);
+      font-size: 1rem;
+      font-weight: 600;
+      color: var(--text-h);
+      margin: 10px 0 9px;
+      letter-spacing: .02em;
+    }
+    .hw-step p { font-size: .87rem; color: var(--text-p); line-height: 1.65; }
+
+    /* ─── СХЕМА АГРЕГАТИРОВАНИЯ ─── */
+    .aggregation-scheme {
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      border: 1px solid var(--border);
+      margin-bottom: 28px;
+    }
+    .aggregation-scheme svg { display: block; width: 100%; height: auto; }
+    .agg-legend {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 16px;
+      padding: 18px 20px;
+      background: var(--bg-card);
+      border-top: 1px solid var(--border);
+    }
+    .agg-legend-item {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: .82rem;
+      color: var(--text-p);
+    }
+    .agg-legend-item .n {
+      width: 20px;
+      height: 20px;
+      background: var(--yellow);
+      color: #000;
+      border-radius: 50%;
+      font-weight: 700;
+      font-size: .7rem;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+    .agg-note {
+      padding: 14px 18px;
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      font-size: .9rem;
+      color: var(--text-p);
+      line-height: 1.6;
+    }
+    .agg-note strong { color: var(--text-h); }
+
+    /* ─── РОССИЙСКОЕ ПРОИЗВОДСТВО ─── */
+    .russia-layout {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 40px;
+      align-items: center;
+    }
+    .russia-badge {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      background: rgba(229,184,74,.07);
+      border: 1px solid rgba(229,184,74,.3);
+      border-radius: var(--radius);
+      padding: 18px 20px;
+      margin-bottom: 20px;
+    }
+    .russia-badge .flag-icon { font-size: 2rem; flex-shrink: 0; }
+    .russia-badge strong { color: var(--text-h); font-size: 1rem; display: block; margin-bottom: 2px; }
+    .russia-badge span { font-size: .86rem; color: var(--text-p); }
+    .russia-txt h3 { font-size: 1.25rem; font-weight: 700; color: var(--text-h); margin-bottom: 12px; }
+    .russia-txt p { font-size: .92rem; color: var(--text-p); line-height: 1.65; margin-bottom: 12px; }
+    .russia-txt .disclaimer {
+      font-size: .82rem;
+      color: var(--text-dim);
+      line-height: 1.55;
+      border-top: 1px solid var(--border);
+      padding-top: 12px;
+      margin-top: 8px;
+    }
+    .russia-photo { border-radius: var(--radius-lg); overflow: hidden; box-shadow: var(--shadow); }
+    .russia-photo img { width: 100%; height: 360px; object-fit: cover; }
+
+    /* ─── ДОКУМЕНТЫ ─── */
+    .docs-grid {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 16px;
+    }
+    .doc-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 22px 18px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 10px;
+    }
+    .doc-card .doc-ico {
+      width: 42px;
+      height: 42px;
+      background: rgba(229,184,74,.1);
+      border-radius: var(--radius);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .doc-card h4 { font-size: .9rem; font-weight: 700; color: var(--text-h); line-height: 1.35; }
+    .doc-card p { font-size: .82rem; color: var(--text-p); line-height: 1.5; }
+    .docs-note {
+      margin-top: 24px;
+      text-align: center;
+      font-size: .88rem;
+      color: var(--text-dim);
+    }
+
+    /* ─── ПРОИЗВОДИТЕЛЬ ─── */
+    .mfr-layout {
+      display: grid;
+      grid-template-columns: 1.1fr 1fr;
+      gap: 50px;
+      align-items: start;
+    }
+    .mfr-stats {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 2px;
+      background: var(--border);
+      border-radius: var(--radius);
+      overflow: hidden;
+      margin-bottom: 24px;
+    }
+    .mfr-stat {
+      background: var(--bg-card);
+      padding: 20px 18px;
+    }
+    .mfr-stat .val {
+      font-size: 1.75rem;
+      font-weight: 800;
+      color: var(--yellow);
+      line-height: 1;
+      margin-bottom: 4px;
+    }
+    .mfr-stat .lbl { font-size: .8rem; color: var(--text-p); }
+    .mfr-services {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .mfr-service {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-size: .92rem;
+      color: var(--text-p);
+    }
+    .mfr-service::before {
+      content: '';
+      width: 6px;
+      height: 6px;
+      background: var(--yellow);
+      border-radius: 50%;
+      flex-shrink: 0;
+    }
+    .mfr-photo { border-radius: var(--radius-lg); overflow: hidden; box-shadow: var(--shadow); }
+    .mfr-photo img { width: 100%; height: 380px; object-fit: cover; }
+
+    /* ─── КОММЕРЧЕСКИЙ ─── */
+    .comm-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+    .comm-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 30px 26px;
+    }
+    .comm-card .comm-ico {
+      width: 50px;
+      height: 50px;
+      margin-bottom: 18px;
+      background: rgba(229,184,74,.1);
+      border-radius: var(--radius);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .comm-card h3 {
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: var(--text-h);
+      margin-bottom: 10px;
+    }
+    .comm-card p { font-size: .92rem; color: var(--text-p); line-height: 1.6; }
+
+    /* ─── ВИДЕО ─── */
+    .video-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 20px;
+    }
+    .video-wrap {
+      position: relative;
+      padding-bottom: 56.25%;
+      height: 0;
+      overflow: hidden;
+      border-radius: var(--radius);
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+    }
+    .video-wrap iframe {
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+    .video-note {
+      margin-top: 16px;
+      text-align: center;
+      font-size: .83rem;
+      color: var(--text-dim);
+    }
+
+    /* ─── ФОРМА ─── */
+    .form-layout {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 60px;
+      align-items: start;
+    }
+    .form-info h3 { font-size: 1.2rem; font-weight: 700; color: var(--text-h); margin-bottom: 14px; }
+    .form-info p  { font-size: .92rem; color: var(--text-p); margin-bottom: 18px; line-height: 1.65; }
+    .form-info ul { padding-left: 0; list-style: none; display: flex; flex-direction: column; gap: 8px; }
+    .form-info ul li {
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+      font-size: .9rem;
+      color: var(--text-p);
+    }
+    .form-info ul li::before {
+      content: '→';
+      color: var(--yellow);
+      font-weight: 700;
+      flex-shrink: 0;
+      margin-top: 1px;
+    }
+    .form-box {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 32px 28px;
+    }
+    .form-group { margin-bottom: 18px; }
+    .form-group label {
+      display: block;
+      font-size: .82rem;
+      font-weight: 600;
+      color: var(--text-p);
+      margin-bottom: 7px;
+      text-transform: uppercase;
+      letter-spacing: .06em;
+    }
+    .form-group input,
+    .form-group select {
+      width: 100%;
+      background: var(--bg-mid);
+      border: 1px solid var(--border-light);
+      border-radius: var(--radius);
+      color: var(--text-h);
+      padding: 12px 14px;
+      font-size: .95rem;
+      font-family: inherit;
+      transition: border-color .2s;
+      outline: none;
+    }
+    .form-group input:focus,
+    .form-group select:focus { border-color: var(--yellow); }
+    .form-group select {
+      appearance: none;
+      background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath d='M1 1l5 5 5-5' stroke='%23888' stroke-width='1.5' fill='none'/%3E%3C/svg%3E");
+      background-repeat: no-repeat;
+      background-position: right 14px center;
+    }
+    .form-group select option { background: #1e1e1e; }
+    .form-note { font-size: .78rem; color: var(--text-dim); margin-top: 12px; line-height: 1.5; }
+    .form-success {
+      display: none;
+      background: rgba(74,127,62,.15);
+      border: 1px solid var(--green-lt);
+      border-radius: var(--radius);
+      padding: 20px;
+      color: #7bc46f;
+      font-size: .95rem;
+      line-height: 1.6;
+    }
+
+    /* ─── ФИНАЛЬНЫЙ CTA ─── */
+    #final-cta {
+      position: relative;
+      overflow: hidden;
+      border-top: 1px solid var(--border);
+    }
+    .final-cta-bg {
+      position: absolute;
+      inset: 0;
+      z-index: 0;
+    }
+    .final-cta-bg img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center 60%;
+    }
+    .final-cta-bg::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(to right,
+        rgba(8,8,8,.97) 0%,
+        rgba(8,8,8,.90) 40%,
+        rgba(8,8,8,.75) 100%
+      );
+    }
+    .final-cta-inner {
+      position: relative;
+      z-index: 1;
+      max-width: 700px;
+      margin: 0 auto;
+      text-align: center;
+    }
+    .final-cta-inner h2 {
+      font-family: var(--font-display);
+      font-size: clamp(1.6rem, 3.2vw, 2.5rem);
+      font-weight: 600;
+      color: var(--text-h);
+      margin-bottom: 16px;
+      letter-spacing: .01em;
+    }
+    .final-cta-inner p {
+      font-size: 1rem;
+      color: var(--text-p);
+      margin-bottom: 36px;
+      line-height: 1.75;
+    }
+    .final-cta-inner .btn-group { justify-content: center; }
+
+    /* ─── КАРУСЕЛЬ ФОТО ─── */
+    .photo-carousel-wrap {
+      position: relative;
+      width: 520px;
+      max-width: 100%;
+      aspect-ratio: 16 / 10;
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      flex-shrink: 0;
+      background: #111;
+    }
+    .carousel-track {
+      position: relative;
+      height: 100%;
+    }
+    .carousel-slide {
+      position: absolute;
+      inset: 0;
+      opacity: 0;
+      transition: opacity .6s ease;
+      z-index: 0;
+    }
+    .carousel-slide.active {
+      opacity: 1;
+      z-index: 1;
+    }
+    .carousel-slide img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center;
+      display: block;
+    }
+    .carousel-btn {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background: rgba(0,0,0,.55);
+      border: 1px solid rgba(255,255,255,.18);
+      color: #fff;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.1rem;
+      transition: background .2s, border-color .2s;
+      z-index: 3;
+      line-height: 1;
+    }
+    .carousel-btn:hover { background: var(--yellow); border-color: var(--yellow); }
+    .carousel-btn.prev { left: 12px; }
+    .carousel-btn.next { right: 12px; }
+    .carousel-dots {
+      position: absolute;
+      bottom: 12px;
+      left: 50%;
+      transform: translateX(-50%);
+      display: flex;
+      gap: 7px;
+      z-index: 3;
+    }
+    .carousel-dot {
+      width: 7px;
+      height: 7px;
+      border-radius: 50%;
+      background: rgba(255,255,255,.35);
+      cursor: pointer;
+      transition: background .2s, transform .2s;
+      border: none;
+      padding: 0;
+    }
+    .carousel-dot.active {
+      background: var(--yellow);
+      transform: scale(1.4);
+    }
+    @media (max-width: 900px) {
+      .photo-carousel-wrap { width: 100%; }
+    }
+
+    /* ─── ФОНОВАЯ СЕКЦИЯ «КАК РАБОТАЕТ» ─── */
+    #how-works {
+      position: relative;
+      overflow: hidden;
+    }
+    .how-works-bg {
+      position: absolute;
+      inset: 0;
+      z-index: 0;
+    }
+    .how-works-bg img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      object-position: center 30%;
+      filter: brightness(.25) saturate(.6);
+    }
+    #how-works .wrap { position: relative; z-index: 1; }
+
+    /* ─── КОНТАКТЫ (схема А — силуэты сбоку) ─── */
+    #contacts {
+      position: relative;
+      overflow: hidden;
+      background: var(--bg-dark);
+      padding: 80px 0;
+    }
+    /* Силуэт слева */
+    #contacts::before {
+      content: '';
+      position: absolute;
+      left: 0;
+      bottom: 0;
+      width: 220px;
+      height: 340px;
+      background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 220 340' fill='%23161616'%3E%3Cpolygon points='30,340 30,180 10,200 50,120 30,140 70,60 50,80 90,0 110,340'/%3E%3Cpolygon points='90,340 90,200 75,215 108,140 90,155 120,80 105,95 135,20 155,340'/%3E%3Crect x='45' y='320' width='8' height='20'/%3E%3Crect x='112' y='300' width='8' height='40'/%3E%3C/svg%3E") no-repeat bottom left;
+      background-size: contain;
+      opacity: .55;
+      pointer-events: none;
+    }
+    /* Силуэт справа */
+    #contacts::after {
+      content: '';
+      position: absolute;
+      right: 0;
+      bottom: 0;
+      width: 200px;
+      height: 310px;
+      background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 310' fill='%23161616'%3E%3Cpolygon points='170,310 170,165 190,185 150,105 170,125 130,45 150,65 110,0 90,310'/%3E%3Cpolygon points='110,310 110,185 125,200 92,125 110,140 80,65 95,80 65,10 45,310'/%3E%3Crect x='147' y='295' width='8' height='15'/%3E%3Crect x='83' y='275' width='8' height='35'/%3E%3C/svg%3E") no-repeat bottom right;
+      background-size: contain;
+      opacity: .55;
+      pointer-events: none;
+    }
+    .contacts-inner {
+      position: relative;
+      z-index: 1;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 40px 60px;
+      align-items: start;
+    }
+    .contacts-left { }
+    .contacts-right { }
+    .contact-cards {
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+      margin-top: 32px;
+    }
+    .contact-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 20px 22px;
+      display: flex;
+      align-items: flex-start;
+      gap: 16px;
+    }
+    .contact-card-icon {
+      width: 40px;
+      height: 40px;
+      background: rgba(229,184,74,.12);
+      border: 1px solid rgba(229,184,74,.25);
+      border-radius: var(--radius);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      font-size: 1.1rem;
+    }
+    .contact-card-body { flex: 1; }
+    .contact-card-label {
+      font-size: .72rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: .1em;
+      color: var(--text-dim);
+      margin-bottom: 5px;
+    }
+    .contact-card-val {
+      font-size: 1.05rem;
+      font-weight: 700;
+      color: var(--text-h);
+      line-height: 1.35;
+    }
+    .contact-card-val a {
+      color: var(--yellow);
+    }
+    .contact-card-val a:hover { color: var(--yellow-lt); }
+    .contact-card-note {
+      font-size: .82rem;
+      color: var(--text-dim);
+      margin-top: 3px;
+    }
+    /* Карточка менеджера */
+    .manager-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-left: 3px solid var(--yellow);
+      border-radius: var(--radius-lg);
+      padding: 24px;
+      margin-top: 32px;
+    }
+    .manager-label {
+      font-size: .72rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: .1em;
+      color: var(--yellow);
+      margin-bottom: 10px;
+    }
+    .manager-name {
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: var(--text-h);
+      margin-bottom: 4px;
+    }
+    .manager-title {
+      font-size: .85rem;
+      color: var(--text-dim);
+      margin-bottom: 14px;
+      line-height: 1.5;
+    }
+    .manager-phone {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 1.05rem;
+      font-weight: 700;
+      color: var(--yellow);
+    }
+    .manager-phone:hover { color: var(--yellow-lt); }
+    /* Реквизиты */
+    .requisites-block {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius-lg);
+      padding: 24px;
+      margin-top: 24px;
+    }
+    .req-title {
+      font-size: .72rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: .1em;
+      color: var(--text-dim);
+      margin-bottom: 14px;
+    }
+    .req-row {
+      display: flex;
+      gap: 8px;
+      font-size: .88rem;
+      margin-bottom: 9px;
+      line-height: 1.45;
+    }
+    .req-key {
+      color: var(--text-dim);
+      min-width: 90px;
+      flex-shrink: 0;
+    }
+    .req-val { color: var(--text-p); }
+    .req-val b { color: var(--text-h); font-weight: 600; }
+
+    @media (max-width: 768px) {
+      #contacts::before, #contacts::after { width: 120px; height: 200px; opacity: .3; }
+      .contacts-inner { grid-template-columns: 1fr; gap: 0; }
+    }
+
+    /* ─── ФУТЕР ─── */
+    footer {
+      background: #080808;
+      border-top: 1px solid rgba(255,255,255,.05);
+      padding: 28px 0;
+    }
+    .footer-inner {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 16px;
+      max-width: var(--max-w);
+      margin: 0 auto;
+      padding: 0 24px;
+    }
+    .footer-logo { display: flex; align-items: center; gap: 10px; }
+    .footer-logo .rutt-mark {
+      font-family: var(--font-display);
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: var(--yellow);
+      letter-spacing: .14em;
+    }
+    .footer-copy { font-size: .76rem; color: var(--text-dim); line-height: 1.55; }
+    .footer-links { display: flex; gap: 20px; }
+    .footer-links a { font-size: .8rem; color: var(--text-dim); transition: color .18s; }
+    .footer-links a:hover { color: var(--yellow); }
+
+    /* ─── ГАЛЕРЕЯ ─── */
+    .gallery-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 12px;
+    }
+    .gallery-grid div {
+      border-radius: var(--radius-lg);
+      overflow: hidden;
+      aspect-ratio: 16/10;
+      position: relative;
+    }
+    .gallery-grid div img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      transition: transform .5s cubic-bezier(.4,0,.2,1);
+    }
+    .gallery-grid div:hover img { transform: scale(1.06); }
+    .gallery-grid div::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(to top, rgba(0,0,0,.35) 0%, transparent 50%);
+      pointer-events: none;
+    }
+
+    /* ─── АДАПТИВ ─── */
+    @media (max-width: 900px) {
+      .solution-layout,
+      .russia-layout,
+      .form-layout,
+      .contacts-inner { grid-template-columns: 1fr; }
+      .russia-photo { order: -1; }
+      .functions-grid,
+      .app-grid,
+      .audience-grid,
+      .howworks-grid,
+      .docs-grid,
+      .video-grid { grid-template-columns: 1fr 1fr; }
+      .gallery-grid { grid-template-columns: 1fr 1fr; }
+      .stats-row { grid-template-columns: 1fr 1fr; }
+      .problem-grid { grid-template-columns: 1fr; }
+    }
+    @media (max-width: 660px) {
+      .sec { padding: 40px 0; }
+      .nav-links { display: none; }
+      #hero { min-height: auto; }
+      .hero-content { padding: 80px 16px 56px; }
+      .hero-badges { flex-direction: column; gap: 6px; align-items: flex-start; }
+      .functions-grid,
+      .app-grid,
+      .audience-grid,
+      .howworks-grid,
+      .docs-grid,
+      .video-grid,
+      .gallery-grid { grid-template-columns: 1fr; }
+      .stats-row { grid-template-columns: 1fr 1fr; }
+      .agg-legend { gap: 10px; }
+      .form-box { padding: 24px 18px; }
+      h2.sec-title { font-size: 1.55rem; }
+      .sec-sub { font-size: .88rem; }
+      /* Карусель на мобайле: меньше высота */
+      .photo-carousel-wrap { aspect-ratio: 4/3; }
+      /* Объединённая секция на мобайле */
+      .app-aud-grid { grid-template-columns: 1fr !important; }
+      /* Форм-блок: в колонку */
+      #form-section .form-inner { flex-direction: column; }
+      #form-section .form-inner .photo-carousel-wrap { width: 100%; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ══════════════ ХЕДЕР ══════════════ -->
+<header id="site-header">
+  <nav class="main-nav">
+    <div class="logo-group">
+      <div class="logo-mark">
+        <div class="logo-rutt">РУ<span>ТТ</span></div>
+        <div class="logo-model">ГТ-3</div>
+      </div>
+      <div class="logo-sep"></div>
+      <div class="logo-tech">НПФ<br><b>ТЕХНОТРАНС</b></div>
+    </div>
+    <div class="nav-links">
+      <a href="#solution">О технике</a>
+      <a href="#specs">Характеристики</a>
+      <a href="#audience">Применение</a>
+      <a href="#contacts">Контакты</a>
+    </div>
+    <a href="#form-section" class="btn btn-primary btn-sm nav-cta">Запросить расчёт</a>
+  </nav>
+</header>
+
+<main>
+
+<!-- ══════════════ 1. ЗАГОЛОВОК ══════════════ -->
+<div style="background:var(--bg-dark);padding:40px 0 32px;">
+  <div class="wrap">
+    <div class="hero-tag" style="margin-bottom:18px;">Лесопожарное навесное оборудование · Российское производство</div>
+    <h1 style="font-family:var(--font-display);font-size:clamp(1.8rem,4vw,3.2rem);font-weight:600;color:var(--text-h);line-height:1.15;max-width:780px;margin-bottom:16px;letter-spacing:.01em;">Лесопожарный грунтомёт <em style="color:var(--yellow);font-style:normal;">РУТТ ГТ-3</em> для локализации низовых лесных пожаров</h1>
+    <p style="font-size:clamp(.9rem,1.5vw,1.05rem);color:var(--text-p);line-height:1.7;max-width:720px;margin-bottom:0;">Навесное почвообрабатывающее орудие для МТЗ 1221 / МУЛ 1221: формирует минерализованную борозду, выбрасывает грунт направленной струёй и создаёт заградительную полосу из насыпного грунта.</p>
+  </div>
+</div>
+
+<!-- ══════════════ ФОТО ══════════════ -->
+<section id="hero">
+  <div class="hero-bg">
+    <img src="./фото грунтомет/грунтомет вид сзади.jpeg" alt="Лесопожарный грунтомёт РУТТ ГТ-3 — вид сзади">
+  </div>
+</section>
+
+<!-- ══════════════ БЕЙДЖИ + СТАТИСТИКА ══════════════ -->
+<div style="background:var(--bg-dark);padding:24px 0 0;">
+  <div class="wrap">
+    <div class="hero-badges" style="margin-bottom:24px;">
+      <span class="hero-badge"><span class="dot"></span>Дальность метания грунта до 30 м</span>
+      <span class="hero-badge"><span class="dot"></span>Эффективная ширина полосы 15 м</span>
+      <span class="hero-badge"><span class="dot"></span>Агрегатируется с МТЗ 1221 / МУЛ 1221</span>
+      <span class="hero-badge"><span class="dot"></span>Поставка, лизинг, доставка по РФ</span>
+    </div>
+  </div>
+</div>
+<div class="wrap" style="padding-bottom:0;background:var(--bg-dark);">
+  <div class="stats-row">
+    <div class="stat-item">
+      <div class="stat-val">до 30 м</div>
+      <div class="stat-label">дальность метания грунта (угол кожуха 45°)</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-val">15 м</div>
+      <div class="stat-label">эффективная ширина заградительной полосы</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-val">6 ножей</div>
+      <div class="stat-label">ротор Ø 750 мм, реверсивное вращение</div>
+    </div>
+    <div class="stat-item">
+      <div class="stat-val">1000 ч</div>
+      <div class="stat-label">ресурс до первого капитального ремонта</div>
+    </div>
+  </div>
+</div>
+
+<!-- ══════════════ 2. ПРОБЛЕМА ══════════════ -->
+<section class="sec" id="problem" style="position:relative;overflow:hidden;">
+  <div style="position:absolute;inset:0;z-index:0;">
+    <img src="./фото грунтомет/грунтомет тушение пожера 2.jpeg" alt="" style="width:100%;height:100%;object-fit:cover;object-position:center 40%;filter:brightness(.15) saturate(.5);">
+  </div>
+  <div class="wrap" style="position:relative;z-index:1;">
+    <span class="section-label">Задачи лесопожарных служб</span>
+    <div class="divider"></div>
+    <h2 class="sec-title">С чем сталкиваются при борьбе с низовыми лесными пожарами</h2>
+    <div class="sec-sub">Для служб, ответственных за защиту лесного фонда, своевременное создание физического противопожарного барьера — ключевая задача в пожароопасный сезон.</div>
+    <div class="problem-grid">
+      <div class="problem-card">
+        <div class="ico">
+          <svg width="36" height="36" viewBox="0 0 36 36" fill="none">
+            <circle cx="18" cy="18" r="16" stroke="#e5b84a" stroke-width="1.5"/>
+            <path d="M18 10v9l5 3" stroke="#e5b84a" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <h3>Скорость локализации кромки критична</h3>
+        <p>Кромка низового лесного пожара распространяется быстро. Каждая минута увеличивает площадь поражения. Необходима механизированная техника, способная оперативно создать физический барьер.</p>
+      </div>
+      <div class="problem-card">
+        <div class="ico">
+          <svg width="36" height="36" viewBox="0 0 36 36" fill="none">
+            <path d="M6 26C6 18 12 12 18 9s12 2 12 9-6 9-12 12" stroke="#e5b84a" stroke-width="1.5" stroke-linecap="round"/>
+            <path d="M18 26v-7" stroke="#e5b84a" stroke-width="2" stroke-linecap="round"/>
+            <circle cx="18" cy="30" r="2" fill="#e5b84a"/>
+          </svg>
+        </div>
+        <h3>Ограниченный доступ к воде</h3>
+        <p>В удалённых и труднодоступных лесных участках подача воды ограничена или невозможна. Для работы с кромкой пожара нужна техника, которая использует грунт непосредственно на месте работы.</p>
+      </div>
+      <div class="problem-card">
+        <div class="ico">
+          <svg width="36" height="36" viewBox="0 0 36 36" fill="none">
+            <rect x="6" y="20" width="24" height="9" rx="2" stroke="#e5b84a" stroke-width="1.5"/>
+            <path d="M10 20v-5a8 8 0 0116 0v5" stroke="#e5b84a" stroke-width="1.5" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <h3>Трудоёмкость ручных работ</h3>
+        <p>Ручное устройство минерализованных полос требует значительных трудовых ресурсов и времени. Механизация сокращает время на подготовку и повышает производительность лесопожарных работ.</p>
+      </div>
+      <div class="problem-card">
+        <div class="ico">
+          <svg width="36" height="36" viewBox="0 0 36 36" fill="none">
+            <path d="M8 28h20M12 28v-7l6-5 6 5v7" stroke="#e5b84a" stroke-width="1.5" stroke-linecap="round"/>
+            <circle cx="18" cy="11" r="3.5" stroke="#e5b84a" stroke-width="1.5"/>
+          </svg>
+        </div>
+        <h3>Подготовка к пожароопасному сезону</h3>
+        <p>Организациям, ответственным за лесной фонд, нужна технически обоснованная механизированная техника для своевременного устройства минерализованных полос и противопожарного обустройства территорий.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════ 3. РЕШЕНИЕ ══════════════ -->
+<section class="sec sec-dk" id="solution">
+  <div class="wrap">
+    <span class="section-label">Решение</span>
+    <div class="divider"></div>
+    <h2 class="sec-title">Назначение РУТТ ГТ-3</h2>
+    <div class="sec-sub">РУТТ ГТ-3 — навесное почвообрабатывающее орудие активного типа, предназначенное для тушения кромки лесных пожаров слабой и средней интенсивности направленной струёй грунта.</div>
+    <div class="solution-layout">
+      <div>
+        <p style="font-size:.95rem;color:var(--text-p);line-height:1.7;margin-bottom:28px;">
+          Орудие устанавливается на заднюю навесную систему трактора МТЗ 1221 (с лесной защитой) или МУЛ 1221 и приводится механически от вала отбора мощности. Работа ведётся при движении трактора вдоль кромки пожара со скоростью 1,6–2,6 км/ч.
+        </p>
+        <div class="solution-step">
+          <div class="step-num">1</div>
+          <div class="step-body">
+            <h4>Срез грунта</h4>
+            <p>Роторный рабочий орган с 6 ножами (Ø 750 мм, реверсивное вращение) срезает грунт при движении трактора. Ножи автоматически устанавливаются на нужный угол резания.</p>
+          </div>
+        </div>
+        <div class="solution-step">
+          <div class="step-num">2</div>
+          <div class="step-body">
+            <h4>Направленный выброс</h4>
+            <p>Грунт направляется через кожух и выбрасывается направленной струёй. Дальность: до 15 м при угле кожуха 20° или до 30 м при угле 45°.</p>
+          </div>
+        </div>
+        <div class="solution-step">
+          <div class="step-num">3</div>
+          <div class="step-body">
+            <h4>Минерализованная борозда</h4>
+            <p>За орудием формируется борозда глубиной не менее 250 мм и шириной не менее 700 мм — физический барьер для распространения огня по почве.</p>
+          </div>
+        </div>
+        <div class="solution-step">
+          <div class="step-num">4</div>
+          <div class="step-body">
+            <h4>Заградительная полоса</h4>
+            <p>Насыпной грунт формирует заградительную полосу с эффективной шириной 15 м (общей до 30 м) вдоль всего обрабатываемого участка.</p>
+          </div>
+        </div>
+      </div>
+      <div class="solution-photo">
+        <img src="./фото грунтомет/грунтомет тушение пожара.jpeg" alt="РУТТ ГТ-3 при тушении кромки лесного пожара">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════ 4. ТРИ ФУНКЦИИ ══════════════ -->
+<section class="sec sec-m" id="functions">
+  <div class="wrap">
+    <span class="section-label">Три функции</span>
+    <div class="divider"></div>
+    <h2 class="sec-title">Один проход — <span>три практические задачи</span></h2>
+    <p class="sec-sub">При одном проходе трактора грунтомёт РУТТ ГТ-3 одновременно выполняет три взаимосвязанных задачи по локализации пожара.</p>
+    <div class="functions-grid">
+      <div class="func-card">
+        <div class="func-num">01</div>
+        <svg class="func-icon" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="26" cy="26" r="22" stroke="#e5b84a" stroke-width="1.5" opacity=".4"/>
+          <path d="M14 36Q20 22 26 18Q32 22 38 36" stroke="#e5b84a" stroke-width="2" stroke-linecap="round" fill="none"/>
+          <path d="M35 25l4-7-7 2" fill="#e5b84a"/>
+        </svg>
+        <h3>Воздействие на кромку пожара грунтом</h3>
+        <p>Направленная струя грунта воздействует на кромку низового лесного пожара. Кожух позволяет регулировать угол и дальность метания в зависимости от условий работы.</p>
+        <span class="func-spec">До 30 м (угол кожуха 45°)</span>
+      </div>
+      <div class="func-card">
+        <div class="func-num">02</div>
+        <svg class="func-icon" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <rect x="8" y="30" width="36" height="12" rx="3" stroke="#e5b84a" stroke-width="1.5"/>
+          <path d="M8 36h36" stroke="#e5b84a" stroke-width="1" opacity=".5"/>
+          <path d="M16 30v-5l10-9 10 9v5" stroke="#e5b84a" stroke-width="1.5" stroke-linecap="round"/>
+        </svg>
+        <h3>Формирование минерализованной борозды</h3>
+        <p>Рабочий орган формирует борозду глубиной не менее 250 мм и шириной не менее 700 мм. Борозда создаёт физический барьер для распространения огня по напочвенному покрову.</p>
+        <span class="func-spec">Не менее 250 × 700 мм</span>
+      </div>
+      <div class="func-card">
+        <div class="func-num">03</div>
+        <svg class="func-icon" viewBox="0 0 52 52" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M8 42Q14 28 20 26Q26 24 32 26Q38 28 44 42" stroke="#e5b84a" stroke-width="1.5" stroke-linecap="round" fill="none"/>
+          <path d="M14 42Q18 32 26 30Q34 32 38 42" fill="rgba(229,184,74,0.1)" stroke="#c49a2a" stroke-width="1"/>
+          <path d="M20 38Q24 31 26 29" stroke="#e5b84a" stroke-width="1.5" stroke-linecap="round"/>
+        </svg>
+        <h3>Заградительная полоса из насыпного грунта</h3>
+        <p>Грунт, выброшенный в сторону пожара, формирует заградительную полосу вдоль обрабатываемого участка. Эффективная ширина — 15 м, общая — до 30 м.</p>
+        <span class="func-spec">Эффективная ширина 15 м</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════ 5+6. ПРИМЕНЕНИЕ И ПОТРЕБИТЕЛИ ══════════════ -->
+<section class="sec" id="audience" style="position:relative;overflow:hidden;">
+  <div style="position:absolute;inset:0;z-index:0;">
+    <img src="./фото грунтомет/грунтомет в работе.jpeg" alt="" style="width:100%;height:100%;object-fit:cover;object-position:center 35%;filter:brightness(.13) saturate(.5);">
+  </div>
+  <div class="wrap" style="position:relative;z-index:1;">
+
+    <!-- Карусель -->
+    <div class="photo-carousel-wrap" data-carousel="c2" style="margin-bottom:44px;max-width:100%;aspect-ratio:16/7;">
+      <div class="carousel-track" id="c2Track">
+        <div class="carousel-slide active"><img src="./фото грунтомет/грунтомет в работе.jpeg"          alt="РУТТ ГТ-3 в работе"></div>
+        <div class="carousel-slide"><img src="./фото грунтомет/грунтомет в работе 2.jpeg"        alt="РУТТ ГТ-3 в работе"></div>
+        <div class="carousel-slide"><img src="./фото грунтомет/грунтомет тушение пожара.jpeg"    alt="РУТТ ГТ-3 тушение пожара"></div>
+        <div class="carousel-slide"><img src="./фото грунтомет/грунтомет тушение пожера 2.jpeg"  alt="РУТТ ГТ-3 тушение лесного пожара"></div>
+        <div class="carousel-slide"><img src="./фото грунтомет/грунтомет вид сзади.jpeg"         alt="РУТТ ГТ-3 вид сзади"></div>
+        <div class="carousel-slide"><img src="./фото грунтомет/грунтомет вид сбоку.jpeg"         alt="РУТТ ГТ-3 вид сбоку"></div>
+      </div>
+      <button class="carousel-btn prev" id="c2Prev" aria-label="Назад">&#8592;</button>
+      <button class="carousel-btn next" id="c2Next" aria-label="Вперёд">&#8594;</button>
+      <div class="carousel-dots" id="c2Dots">
+        <button class="carousel-dot active"></button>
+        <button class="carousel-dot"></button>
+        <button class="carousel-dot"></button>
+        <button class="carousel-dot"></button>
+        <button class="carousel-dot"></button>
+        <button class="carousel-dot"></button>
+      </div>
+    </div>
+
+    <!-- Двухколонный блок: Применение + Для кого -->
+    <div class="app-aud-grid" style="display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:start;">
+
+      <!-- Применение -->
+      <div>
+        <span class="section-label">Область применения</span>
+        <div class="divider"></div>
+        <h2 class="sec-title" style="font-size:clamp(1.3rem,2.5vw,1.8rem);margin-bottom:20px;">Для каких задач <span>применяется</span></h2>
+        <div class="app-grid" style="grid-template-columns:1fr;gap:10px;">
+          <div class="app-card">
+            <div class="app-ico"><svg width="22" height="22" viewBox="0 0 22 22" fill="none"><path d="M4 18C4 12 8 7 11 5s7 1 7 6-4 6-7 8" stroke="#e5b84a" stroke-width="1.5" stroke-linecap="round"/><path d="M11 18v-5" stroke="#e5b84a" stroke-width="2" stroke-linecap="round"/></svg></div>
+            <p>Тушение кромки пожаров <strong style="color:var(--text-h)">слабой и средней интенсивности</strong> направленной струёй грунта</p>
+          </div>
+          <div class="app-card">
+            <div class="app-ico"><svg width="22" height="22" viewBox="0 0 22 22" fill="none"><rect x="2" y="14" width="18" height="5" rx="1.5" stroke="#e5b84a" stroke-width="1.5"/><path d="M6 14v-3a5 5 0 0110 0v3" stroke="#e5b84a" stroke-width="1.5" stroke-linecap="round"/></svg></div>
+            <p>Устройство <strong style="color:var(--text-h)">минерализованных полос</strong> перед кромкой лесных пожаров</p>
+          </div>
+          <div class="app-card">
+            <div class="app-ico"><svg width="22" height="22" viewBox="0 0 22 22" fill="none"><path d="M3 19h16M5 19v-4l6-4 6 4v4" stroke="#e5b84a" stroke-width="1.5" stroke-linecap="round"/></svg></div>
+            <p>Создание <strong style="color:var(--text-h)">заградительных полос</strong> при противопожарном обустройстве лесных территорий</p>
+          </div>
+          <div class="app-card">
+            <div class="app-ico"><svg width="22" height="22" viewBox="0 0 22 22" fill="none"><circle cx="11" cy="11" r="8" stroke="#e5b84a" stroke-width="1.5"/><path d="M11 7v4l3 2" stroke="#e5b84a" stroke-width="1.5" stroke-linecap="round"/></svg></div>
+            <p><strong style="color:var(--text-h)">Подновление минерализованных полос</strong> с очисткой и обновлением борозды</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Для кого -->
+      <div>
+        <span class="section-label">Целевые потребители</span>
+        <div class="divider"></div>
+        <h2 class="sec-title" style="font-size:clamp(1.3rem,2.5vw,1.8rem);margin-bottom:20px;">Кому <span>предназначен</span></h2>
+        <div style="display:flex;flex-direction:column;gap:8px;">
+          <div class="aud-card" style="padding:12px 16px;">
+            <span class="aud-tag">Лесхозы и лесничества</span>
+            <p style="font-size:.85rem;margin-top:4px;">Механизация работ по локализации кромки пожаров и устройству минерализованных полос.</p>
+          </div>
+          <div class="aud-card" style="padding:12px 16px;">
+            <span class="aud-tag">МЧС и противопожарные подразделения</span>
+            <p style="font-size:.85rem;margin-top:4px;">Работа с кромкой пожара в условиях ограниченного доступа к воде.</p>
+          </div>
+          <div class="aud-card" style="padding:12px 16px;">
+            <span class="aud-tag">Региональные органы лесного хозяйства</span>
+            <p style="font-size:.85rem;margin-top:4px;">Оснащение подведомственных структур, подготовка к пожароопасному сезону.</p>
+          </div>
+          <div class="aud-card" style="padding:12px 16px;">
+            <span class="aud-tag">Арендаторы лесных участков</span>
+            <p style="font-size:.85rem;margin-top:4px;">Выполнение обязательств по противопожарному обустройству арендуемых территорий.</p>
+          </div>
+          <div class="aud-card" style="padding:12px 16px;">
+            <span class="aud-tag">Промышленные предприятия и муниципалитеты</span>
+            <p style="font-size:.85rem;margin-top:4px;">Защита объектов и прилегающих лесных территорий в зонах лесного фонда.</p>
+          </div>
+          <div class="aud-card" style="padding:12px 16px;">
+            <span class="aud-tag">Подрядные организации</span>
+            <p style="font-size:.85rem;margin-top:4px;">Расширение перечня услуг по лесопожарным и противопожарным работам.</p>
+          </div>
+        </div>
+      </div>
+
+    </div><!-- /app-aud-grid -->
+  </div>
+</section>
+
+<!-- ══════════════ 7. ТЕХНИЧЕСКИЕ ХАРАКТЕРИСТИКИ ══════════════ -->
+<section class="sec sec-dk" id="specs" style="position:relative;overflow:hidden;">
+  <div style="position:absolute;inset:0;z-index:0;">
+    <img src="./фото грунтомет/грунтомет вид сбоку.jpeg" alt="" style="width:100%;height:100%;object-fit:cover;object-position:center 40%;filter:brightness(.1) saturate(.4);">
+  </div>
+  <div class="wrap" style="position:relative;z-index:1;">
+    <span class="section-label">Технические данные</span>
+    <div class="divider"></div>
+    <h2 class="sec-title">Технические характеристики</h2>
+    <p class="sec-sub">Данные приведены по руководству по эксплуатации РУТТ ГТ-3 01.00.00.000 РЭ (2024 г.).</p>
+    <div style="overflow-x:auto;">
+      <table class="specs-table">
+        <thead>
+          <tr>
+            <th>Параметр</th>
+            <th>Значение</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>Тип орудия</td><td>Навесной</td></tr>
+          <tr><td>Агрегатируется с</td><td>МТЗ 1221 / МУЛ 1221</td></tr>
+          <tr><td>Привод</td><td>Механический от ВОМ трактора</td></tr>
+          <tr><td>Частота вращения ВОМ</td><td>1 000 об/мин</td></tr>
+          <tr><td>Тип рабочего органа</td><td>Роторный</td></tr>
+          <tr><td>Количество ножей рабочего органа</td><td>6</td></tr>
+          <tr><td>Диаметр рабочего органа</td><td>750 мм</td></tr>
+          <tr><td>Направление вращения</td><td>Реверсивное</td></tr>
+          <tr><td>Габаритные размеры (не более), Д × Ш × В</td><td>1 150 × 1 500 × 1 600 мм</td></tr>
+          <tr><td>Глубина минерализованной борозды</td><td>не менее 250 мм</td></tr>
+          <tr><td>Ширина минерализованной борозды</td><td>не менее 700 мм</td></tr>
+          <tr><td>Дальность метания грунта при угле кожуха 20°</td><td>до 15 м</td></tr>
+          <tr><td>Дальность метания грунта при угле кожуха 45°</td><td>до 30 м</td></tr>
+          <tr><td>Эффективная ширина заградительной полосы из насыпного грунта</td><td>15 м</td></tr>
+          <tr><td>Масса (не более)</td><td>800 кг</td></tr>
+          <tr><td>Рабочая скорость</td><td>1,6 – 2,6 км/ч</td></tr>
+          <tr><td>Средняя наработка на сложный отказ (II и III группы)</td><td>75 часов</td></tr>
+          <tr><td>Ресурс до первого капитального ремонта</td><td>1 000 часов</td></tr>
+          <tr><td>Срок службы</td><td>5 лет</td></tr>
+          <tr><td>Температурный диапазон эксплуатации</td><td>от 0 °C до +40 °C</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="specs-note">
+      Фактические показатели работы зависят от типа грунта, состояния участка, подготовки трактора и соблюдения требований руководства по эксплуатации. Наилучшие результаты — на песчаных и супесчаных почвах при толщине подстилки до 6 см. Запрещена эксплуатация на грунтах с включениями камней массой более 2 кг.
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════ 8. КАК РАБОТАЕТ ══════════════ -->
+<section class="sec" id="howworks" style="position:relative;overflow:hidden;">
+  <div style="position:absolute;inset:0;z-index:0;">
+    <img src="./фото грунтомет/грунтомет в работе.jpeg" alt="" style="width:100%;height:100%;object-fit:cover;object-position:center 35%;filter:brightness(.18) saturate(.5);">
+  </div>
+  <div class="wrap" style="position:relative;z-index:1;">
+    <span class="section-label">Принцип работы</span>
+    <div class="divider"></div>
+    <h2 class="sec-title">Как работает <span>лесопожарный грунтомёт</span></h2>
+    <p class="sec-sub">Последовательность работы при одном проходе трактора с грунтомётом РУТТ ГТ-3.</p>
+    <div class="howworks-grid">
+      <div class="hw-step">
+        <div class="hw-step-n">1</div>
+        <h4>Агрегатирование с трактором</h4>
+        <p>РУТТ ГТ-3 устанавливается на заднюю навесную систему трактора МТЗ 1221 или МУЛ 1221 через стандартный трёхточечный прицепной треугольник, унифицированный с навесными системами тракторов.</p>
+      </div>
+      <div class="hw-step">
+        <div class="hw-step-n">2</div>
+        <h4>Подключение привода от ВОМ</h4>
+        <p>Приводной карданный вал соединяет вал отбора мощности трактора с приёмным валом грунтомёта. Привод — механический. Рабочая частота ВОМ 1 000 об/мин.</p>
+      </div>
+      <div class="hw-step">
+        <div class="hw-step-n">3</div>
+        <h4>Срез грунта рабочим органом</h4>
+        <p>При движении трактора роторный рабочий орган (6 ножей-лопаток, Ø 750 мм) срезает грунт. Режущие ножи автоматически устанавливаются на нужный угол резания по сопротивлению грунта.</p>
+      </div>
+      <div class="hw-step">
+        <div class="hw-step-n">4</div>
+        <h4>Регулировка кожухом</h4>
+        <p>Направляющий кожух регулирует угол и длину метания грунта в горизонтальной плоскости. При угле 20° дальность до 15 м, при угле 45° — до 30 м.</p>
+      </div>
+      <div class="hw-step">
+        <div class="hw-step-n">5</div>
+        <h4>Выброс грунта в сторону пожара</h4>
+        <p>Направленная струя грунта выбрасывается в сторону кромки пожара. Грунт воздействует на кромку пламени и укладывается полосой вдоль периметра кромки.</p>
+      </div>
+      <div class="hw-step">
+        <div class="hw-step-n">6</div>
+        <h4>Борозда и заградительная полоса</h4>
+        <p>Одновременно за грунтомётом остаётся минерализованная борозда (не менее 250 × 700 мм) и формируется заградительная полоса насыпного грунта эффективной шириной 15 м.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════ 9. СХЕМА АГРЕГАТИРОВАНИЯ ══════════════ -->
+<section class="sec sec-dk" id="aggregation">
+  <div class="wrap">
+    <span class="section-label">Инженерный блок</span>
+    <div class="divider"></div>
+    <h2 class="sec-title">Агрегатируется с <span>МТЗ 1221 / МУЛ 1221</span></h2>
+    <p class="sec-sub">РУТТ ГТ-3 устанавливается на заднюю навесную систему трактора и приводится от ВОМ через карданный вал при частоте вращения 1 000 об/мин.</p>
+
+    <div class="aggregation-scheme">
+      <svg viewBox="0 0 860 310" xmlns="http://www.w3.org/2000/svg" font-family="'Segoe UI',Arial,sans-serif">
+        <!-- Фон -->
+        <rect width="860" height="310" fill="#181818"/>
+
+        <!-- Земля -->
+        <rect x="30" y="272" width="800" height="8" fill="#221a08" rx="1"/>
+        <line x1="30" y1="272" x2="830" y2="272" stroke="#3a2e10" stroke-width="1"/>
+
+        <!-- ══ ТОЛКАТЕЛЬ (1) — передний буфер ══ -->
+        <rect x="50" y="212" width="14" height="60" fill="#383838" stroke="#505050" stroke-width="1" rx="2"/>
+        <rect x="38" y="218" width="38" height="7" fill="#484848" rx="1.5"/>
+        <rect x="38" y="247" width="38" height="7" fill="#484848" rx="1.5"/>
+        <line x1="50" y1="222" x2="64" y2="222" stroke="#565656" stroke-width="1"/>
+        <line x1="50" y1="250" x2="64" y2="250" stroke="#565656" stroke-width="1"/>
+
+        <!-- ══ ЗАЩИТА ТРАКТОРА (2) — переднее ограждение ══ -->
+        <rect x="62" y="165" width="10" height="107" fill="#c49a2a" opacity="0.5" rx="2"/>
+        <rect x="60" y="163" width="14" height="4" fill="#e5b84a" opacity="0.75" rx="1"/>
+        <rect x="60" y="268" width="14" height="4" fill="#e5b84a" opacity="0.75" rx="1"/>
+
+        <!-- ══ ТРАКТОР (3) ══ -->
+        <!-- Корпус/капот -->
+        <rect x="72" y="208" width="82" height="64" fill="#282828" stroke="#454545" stroke-width="1.5" rx="3"/>
+        <!-- Кабина -->
+        <rect x="154" y="160" width="105" height="112" fill="#222" stroke="#454545" stroke-width="1.5" rx="3"/>
+        <!-- Окна кабины -->
+        <rect x="163" y="170" width="40" height="28" fill="#0b1822" rx="2" opacity="0.9"/>
+        <rect x="208" y="170" width="40" height="28" fill="#0b1822" rx="2" opacity="0.9"/>
+        <!-- Детали кабины -->
+        <rect x="163" y="205" width="80" height="2" fill="#333" opacity=".5"/>
+        <!-- Выхлопная труба -->
+        <rect x="149" y="126" width="7" height="37" fill="#383838" rx="3"/>
+        <ellipse cx="152" cy="126" rx="4" ry="2" fill="#2e2e2e" stroke="#444" stroke-width="1"/>
+
+        <!-- Переднее колесо (малое) -->
+        <circle cx="120" cy="267" r="22" fill="#1c1c1c" stroke="#3a3a3a" stroke-width="2"/>
+        <circle cx="120" cy="267" r="12" fill="#282828"/>
+        <circle cx="120" cy="267" r="4" fill="#383838"/>
+        <!-- Спицы -->
+        <line x1="120" y1="245" x2="120" y2="267" stroke="#333" stroke-width="1.5"/>
+        <line x1="120" y1="289" x2="120" y2="267" stroke="#333" stroke-width="1.5"/>
+        <line x1="100" y1="255" x2="120" y2="267" stroke="#333" stroke-width="1.5"/>
+        <line x1="140" y1="279" x2="120" y2="267" stroke="#333" stroke-width="1.5"/>
+
+        <!-- Заднее колесо (большое) -->
+        <circle cx="246" cy="263" r="36" fill="#1c1c1c" stroke="#3a3a3a" stroke-width="2"/>
+        <circle cx="246" cy="263" r="21" fill="#282828"/>
+        <circle cx="246" cy="263" r="6" fill="#383838"/>
+        <g stroke="#333" stroke-width="1.5">
+          <line x1="246" y1="227" x2="246" y2="263"/>
+          <line x1="246" y1="299" x2="246" y2="263"/>
+          <line x1="215" y1="244" x2="246" y2="263"/>
+          <line x1="277" y1="282" x2="246" y2="263"/>
+          <line x1="215" y1="282" x2="246" y2="263"/>
+          <line x1="277" y1="244" x2="246" y2="263"/>
+        </g>
+
+        <!-- ══ НАВЕСКА (4) — задняя трёхточечная ══ -->
+        <!-- Верхняя тяга -->
+        <line x1="259" y1="222" x2="316" y2="229" stroke="#707070" stroke-width="4" stroke-linecap="round"/>
+        <!-- Нижние тяги -->
+        <line x1="259" y1="248" x2="316" y2="256" stroke="#808080" stroke-width="5" stroke-linecap="round"/>
+        <line x1="259" y1="243" x2="316" y2="250" stroke="#808080" stroke-width="5" stroke-linecap="round"/>
+        <!-- Точка сцепки -->
+        <circle cx="316" cy="242" r="7" fill="#555" stroke="#707070" stroke-width="1.5"/>
+
+        <!-- ══ КАРДАННЫЙ ВАЛ (5) ══ -->
+        <line x1="259" y1="235" x2="378" y2="238" stroke="#e5b84a" stroke-width="5" stroke-linecap="round" stroke-dasharray="14,7"/>
+        <circle cx="266" cy="235" r="5.5" fill="#e5b84a"/>
+        <circle cx="372" cy="238" r="5.5" fill="#e5b84a"/>
+        <!-- Подпись -->
+        <rect x="288" y="218" width="98" height="16" fill="rgba(0,0,0,.5)" rx="2"/>
+        <text x="337" y="229" fill="#c49a2a" font-size="10.5" text-anchor="middle" font-weight="700">1 000 об/мин · ВОМ</text>
+
+        <!-- ══ ГРУНТОМЁТ (6) ══ -->
+        <!-- Корпус -->
+        <rect x="316" y="200" width="158" height="75" fill="#1e1e1e" stroke="#e5b84a" stroke-width="1.5" rx="4"/>
+        <!-- Кожух направляющий (верхняя часть) -->
+        <path d="M 442 202 Q 496 158 534 142" stroke="#c49a2a" stroke-width="5" fill="none" stroke-linecap="round"/>
+        <path d="M 450 200 Q 504 164 540 148" stroke="#9a7820" stroke-width="3.5" fill="none" stroke-linecap="round" stroke-dasharray="10,5"/>
+        <!-- Корпус ротора -->
+        <circle cx="392" cy="238" r="44" fill="#161616" stroke="#303030" stroke-width="1.5"/>
+        <circle cx="392" cy="238" r="33" fill="#121212" stroke="#404040" stroke-width="1"/>
+        <!-- 6 ножей ротора -->
+        <g stroke="#545454" stroke-width="2.5" stroke-linecap="round">
+          <line x1="392" y1="205" x2="392" y2="238"/>
+          <line x1="392" y1="271" x2="392" y2="238"/>
+          <line x1="363" y1="221" x2="392" y2="238"/>
+          <line x1="421" y1="255" x2="392" y2="238"/>
+          <line x1="363" y1="255" x2="392" y2="238"/>
+          <line x1="421" y1="221" x2="392" y2="238"/>
+        </g>
+        <!-- Центр ротора -->
+        <circle cx="392" cy="238" r="6" fill="#e5b84a"/>
+        <!-- Опорные катки -->
+        <circle cx="344" cy="265" r="13" fill="#1a1a1a" stroke="#3a3a3a" stroke-width="1.5"/>
+        <circle cx="456" cy="265" r="13" fill="#1a1a1a" stroke="#3a3a3a" stroke-width="1.5"/>
+
+        <!-- ══ ВЫБРОС ГРУНТА ══ -->
+        <!-- Основная траектория -->
+        <path d="M 522 162 Q 582 105 654 78" stroke="#e5b84a" stroke-width="2.5" fill="none" stroke-dasharray="9,5" stroke-linecap="round" opacity=".85"/>
+        <!-- Наконечник стрелки -->
+        <polygon points="654,78 632,87 643,100" fill="#e5b84a"/>
+        <!-- Частицы грунта по траектории -->
+        <circle cx="545" cy="144" r="3.5" fill="#a07828" opacity="0.85"/>
+        <circle cx="568" cy="126" r="5" fill="#885e18" opacity="0.75"/>
+        <circle cx="592" cy="110" r="3" fill="#a07828" opacity="0.7"/>
+        <circle cx="615" cy="96" r="4" fill="#885e18" opacity="0.65"/>
+        <circle cx="636" cy="86" r="2.5" fill="#a07828" opacity="0.6"/>
+        <!-- Метки выброса -->
+        <text x="672" y="83" fill="#e5b84a" font-size="12" font-weight="700">Выброс</text>
+        <text x="672" y="100" fill="#e5b84a" font-size="12" font-weight="700">грунта</text>
+
+        <!-- Борозда (след в земле) -->
+        <rect x="316" y="272" width="158" height="5" fill="#7a4e10" rx="1" opacity="0.85"/>
+        <text x="395" y="292" fill="#966a20" font-size="10.5" text-anchor="middle" font-weight="500">Минерализованная борозда</text>
+
+        <!-- ══ НОМЕРНЫЕ МЕТКИ (1–6) ══ -->
+        <!-- Линии к элементам -->
+        <line x1="57"  y1="100" x2="57"  y2="213" stroke="#e5b84a" stroke-width="1" stroke-dasharray="4,3" opacity="0.45"/>
+        <line x1="67"  y1="100" x2="67"  y2="165" stroke="#e5b84a" stroke-width="1" stroke-dasharray="4,3" opacity="0.45"/>
+        <line x1="200" y1="100" x2="200" y2="160" stroke="#e5b84a" stroke-width="1" stroke-dasharray="4,3" opacity="0.45"/>
+        <line x1="305" y1="100" x2="305" y2="220" stroke="#e5b84a" stroke-width="1" stroke-dasharray="4,3" opacity="0.45"/>
+        <line x1="330" y1="100" x2="330" y2="230" stroke="#e5b84a" stroke-width="1" stroke-dasharray="4,3" opacity="0.45"/>
+        <line x1="392" y1="100" x2="392" y2="194" stroke="#e5b84a" stroke-width="1" stroke-dasharray="4,3" opacity="0.45"/>
+        <!-- Кружки -->
+        <circle cx="57"  cy="87" r="13" fill="#e5b84a"/>
+        <text x="57"  y="92" text-anchor="middle" fill="#0d0d0d" font-size="13" font-weight="800">1</text>
+        <circle cx="79"  cy="87" r="13" fill="#e5b84a"/>
+        <text x="79"  y="92" text-anchor="middle" fill="#0d0d0d" font-size="13" font-weight="800">2</text>
+        <circle cx="200" cy="87" r="13" fill="#e5b84a"/>
+        <text x="200" y="92" text-anchor="middle" fill="#0d0d0d" font-size="13" font-weight="800">3</text>
+        <circle cx="305" cy="87" r="13" fill="#e5b84a"/>
+        <text x="305" y="92" text-anchor="middle" fill="#0d0d0d" font-size="13" font-weight="800">4</text>
+        <circle cx="330" cy="87" r="13" fill="#e5b84a"/>
+        <text x="330" y="92" text-anchor="middle" fill="#0d0d0d" font-size="13" font-weight="800">5</text>
+        <circle cx="392" cy="87" r="13" fill="#e5b84a"/>
+        <text x="392" y="92" text-anchor="middle" fill="#0d0d0d" font-size="13" font-weight="800">6</text>
+
+        <!-- Разделительная линия вверху -->
+        <line x1="35" y1="74" x2="420" y2="74" stroke="#2c2c2c" stroke-width="1"/>
+      </svg>
+
+      <!-- Легенда -->
+      <div class="agg-legend">
+        <div class="agg-legend-item"><div class="n">1</div>Толкатель</div>
+        <div class="agg-legend-item"><div class="n">2</div>Защита трактора</div>
+        <div class="agg-legend-item"><div class="n">3</div>Трактор МТЗ 1221 / МУЛ 1221</div>
+        <div class="agg-legend-item"><div class="n">4</div>Навеска (задняя трёхточечная)</div>
+        <div class="agg-legend-item"><div class="n">5</div>Карданный вал (ВОМ → грунтомёт)</div>
+        <div class="agg-legend-item"><div class="n">6</div>Грунтомёт РУТТ ГТ-3</div>
+      </div>
+    </div>
+
+    <div class="agg-note">
+      <strong>Схема агрегатирования:</strong> РУТТ ГТ-3 устанавливается на заднюю навесную систему трактора через стандартный трёхточечный присоединительный треугольник, унифицированный с МТЗ 1221 и МУЛ 1221. Привод осуществляется от ВОМ трактора через карданный вал при частоте вращения 1 000 об/мин. Такая схема позволяет использовать трактор как энергетическое средство для работы роторного грунтомёта. При агрегатировании в лесных условиях трактор МТЗ 1221 дополнительно оснащается лесной защитой.
+    </div>
+  </div>
+</section>
+
+
+<!-- ══════════════ 10. РОССИЙСКОЕ ПРОИЗВОДСТВО ══════════════ -->
+<section class="sec sec-dk" id="russia">
+  <div class="wrap">
+    <span class="section-label green">Российское производство</span>
+    <div class="divider"></div>
+    <h2 class="sec-title">Разработка и производство<br><span>ООО «НПФ «ТЕХНОТРАНС»</span></h2>
+    <div class="russia-layout">
+      <div class="russia-txt">
+        <div class="russia-badge">
+          <div class="flag-icon">🇷🇺</div>
+          <div>
+            <strong>Производитель — Россия, г. Курган</strong>
+            <span>ООО «НПФ «ТЕХНОТРАНС» разрабатывает и производит спецтехнику с 2004 года</span>
+          </div>
+        </div>
+        <p>РУТТ ГТ-3 разработан и производится в России. Конструкторская документация, технологические процессы и техническое сопровождение — на производственно-сервисной площадке в г. Кургане.</p>
+        <p>Декларация соответствия ЕАЭС оформлена по требованиям технического регламента Таможенного союза ТР ТС 010/2011 «О безопасности машин и оборудования».</p>
+        <div style="background:rgba(229,184,74,.07);border:1px solid rgba(229,184,74,.25);border-radius:var(--radius);padding:16px 18px;margin-bottom:14px;">
+          <div style="font-size:.9rem;font-weight:700;color:var(--yellow);margin-bottom:6px;">Постановление Правительства РФ № 719</div>
+          <p style="font-size:.88rem;color:var(--text-p);line-height:1.65;margin-bottom:0;">РУТТ ГТ-3 входит в Постановление № 719, что может быть значимым фактором при выборе российской техники и подготовке закупочной документации. Уточняйте актуальные условия у менеджера — прохождение конкретных закупочных процедур зависит от требований заказчика и действующего законодательства.</p>
+        </div>
+        <div class="disclaimer">К эксплуатации грунтомёта допускаются квалифицированные лица не моложе 18 лет, прошедшие медицинское освидетельствование и обучение безопасности труда, имеющие квалификацию машиниста не ниже 4-го разряда. Предприятие-изготовитель не несёт гарантийной ответственности за повреждения, происшедшие из-за несоблюдения требований руководства по эксплуатации.</div>
+      </div>
+      <div class="russia-photo">
+        <img src="./фото грунтомет/грунтомет вид сбоку.jpeg" alt="РУТТ ГТ-3 — производство Технотранс Курган" style="height:360px;object-fit:cover;width:100%;">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════ 11. ДОКУМЕНТЫ ══════════════ -->
+<section class="sec sec-m" id="documents">
+  <div class="wrap">
+    <span class="section-label">Документация</span>
+    <div class="divider"></div>
+    <h2 class="sec-title">Документы и <span>соответствие</span></h2>
+    <p class="sec-sub">На грунтомёт РУТТ ГТ-3 оформлена необходимая техническая документация. Документы предоставляются по запросу.</p>
+    <div class="docs-grid">
+      <div class="doc-card">
+        <div class="doc-ico">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><rect x="4" y="2" width="16" height="20" rx="2" stroke="#e5b84a" stroke-width="1.5"/><path d="M8 7h8M8 11h8M8 15h5" stroke="#e5b84a" stroke-width="1.5" stroke-linecap="round"/></svg>
+        </div>
+        <h4>Декларация соответствия ЕАЭС</h4>
+        <p>Оформлена в соответствии с требованиями Таможенного союза. Предоставляется по запросу.</p>
+      </div>
+      <div class="doc-card">
+        <div class="doc-ico">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M12 2L3 7v5c0 5 4 9.3 9 10 5-.7 9-5 9-10V7L12 2z" stroke="#e5b84a" stroke-width="1.5" stroke-linejoin="round"/><path d="M9 12l2 2 4-4" stroke="#e5b84a" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </div>
+        <h4>Соответствие ТР ТС 010/2011</h4>
+        <p>«О безопасности машин и оборудования» — технический регламент Таможенного союза.</p>
+      </div>
+      <div class="doc-card">
+        <div class="doc-ico">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><path d="M14 2H6a2 2 0 00-2 2v16a2 2 0 002 2h12a2 2 0 002-2V8l-6-6z" stroke="#e5b84a" stroke-width="1.5" stroke-linejoin="round"/><path d="M14 2v6h6M16 13H8M16 17H8M10 9H8" stroke="#e5b84a" stroke-width="1.5" stroke-linecap="round"/></svg>
+        </div>
+        <h4>Руководство по эксплуатации</h4>
+        <p>РУТТ ГТ-3 01.00.00.000 РЭ (2024 г.) — техническое описание, регламенты ТО, требования безопасности.</p>
+      </div>
+      <div class="doc-card">
+        <div class="doc-ico">
+          <svg width="24" height="24" viewBox="0 0 24 24" fill="none"><rect x="3" y="3" width="18" height="18" rx="2" stroke="#e5b84a" stroke-width="1.5"/><path d="M3 9h18M9 21V9" stroke="#e5b84a" stroke-width="1.5"/></svg>
+        </div>
+        <h4>Техническая документация</h4>
+        <p>Конструкторская документация, схемы агрегатирования, спецификации на комплектующие.</p>
+      </div>
+    </div>
+    <p class="docs-note">Все документы предоставляются по запросу. Направьте заявку через форму ниже или свяжитесь с менеджером.</p>
+  </div>
+</section>
+
+
+
+
+<!-- ══════════════ 15. ЗАЯВКА ══════════════ -->
+<section class="sec sec-m" id="form-section">
+  <div class="wrap">
+    <div class="form-inner" style="display:flex;align-items:center;gap:48px;flex-wrap:wrap;">
+      <!-- Карусель фото -->
+      <div class="photo-carousel-wrap">
+        <div class="carousel-track" id="carouselTrack">
+          <div class="carousel-slide active"><img src="./фото грунтомет/грунтомет вид сзади.jpeg"         alt="РУТТ ГТ-3 вид сзади"></div>
+          <div class="carousel-slide"><img src="./фото грунтомет/грунтомет вид сбоку.jpeg"         alt="РУТТ ГТ-3 вид сбоку"></div>
+          <div class="carousel-slide"><img src="./фото грунтомет/грунтомет в работе.jpeg"          alt="РУТТ ГТ-3 в работе"></div>
+          <div class="carousel-slide"><img src="./фото грунтомет/грунтомет в работе 2.jpeg"        alt="РУТТ ГТ-3 в работе"></div>
+          <div class="carousel-slide"><img src="./фото грунтомет/грунтомет тушение пожара.jpeg"    alt="РУТТ ГТ-3 тушение пожара"></div>
+          <div class="carousel-slide"><img src="./фото грунтомет/грунтомет тушение пожера 2.jpeg"  alt="РУТТ ГТ-3 тушение лесного пожара"></div>
+        </div>
+        <button class="carousel-btn prev" id="carouselPrev" aria-label="Предыдущее фото">&#8592;</button>
+        <button class="carousel-btn next" id="carouselNext" aria-label="Следующее фото">&#8594;</button>
+        <div class="carousel-dots" id="carouselDots">
+          <button class="carousel-dot active"></button>
+          <button class="carousel-dot"></button>
+          <button class="carousel-dot"></button>
+          <button class="carousel-dot"></button>
+          <button class="carousel-dot"></button>
+          <button class="carousel-dot"></button>
+        </div>
+      </div>
+      <!-- Блок производителя + CTA -->
+      <div style="display:flex;gap:14px;align-items:flex-start;flex:1;min-width:220px;">
+        <span style="font-size:2rem;line-height:1;flex-shrink:0;margin-top:3px;">🇷🇺</span>
+        <div>
+          <div style="font-size:.75rem;font-weight:700;color:var(--yellow);letter-spacing:.1em;text-transform:uppercase;margin-bottom:6px;">Производитель</div>
+          <div style="font-size:1.05rem;font-weight:700;color:var(--text-h);margin-bottom:4px;">Россия, г. Курган</div>
+          <div style="font-size:.9rem;color:var(--text-p);line-height:1.6;margin-bottom:10px;">ООО «НПФ «ТЕХНОТРАНС» разрабатывает и производит спецтехнику с 2004 года.</div>
+          <a href="https://технотранс.рф" target="_blank" rel="noopener" style="font-size:.9rem;color:var(--yellow);font-weight:600;display:inline-block;margin-bottom:20px;">технотранс.рф ↗</a>
+          <div style="display:flex;gap:12px;flex-wrap:wrap;">
+            <a href="#contacts" class="btn btn-primary">Запросить расчёт</a>
+            <a href="#contacts" class="btn btn-outline">Заказать демонстрацию</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════ 16. ФИНАЛЬНЫЙ CTA ══════════════ -->
+<section class="sec" id="final-cta">
+  <div class="final-cta-bg">
+    <img src="./фото грунтомет/грунтомет тушение пожара.jpeg" alt="">
+  </div>
+  <div class="wrap">
+    <div class="final-cta-inner">
+      <span class="section-label">Подобрать технику</span>
+      <h2>Подберите РУТТ ГТ-3 под задачи вашей организации и подготовку к пожароопасному сезону</h2>
+      <p>Оставьте заявку — специалисты Технотранс подготовят расчёт, условия поставки, лизинга или демонстрации. Ответим на технические вопросы и предоставим документацию по запросу.</p>
+      <div class="btn-group">
+        <a href="#form-section" class="btn btn-primary">Запросить расчёт</a>
+        <a href="#form-section" class="btn btn-outline">Заказать демонстрацию</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<!-- ══════════════ КОНТАКТЫ ══════════════ -->
+<section id="contacts">
+  <div class="wrap">
+    <div style="text-align:center;margin-bottom:48px;">
+      <span class="section-label">Контакты</span>
+      <div class="divider" style="margin:12px auto 0;"></div>
+      <h2 class="sec-title" style="margin-top:12px;">Свяжитесь с нами</h2>
+      <p class="sec-sub" style="margin:8px auto 0;text-align:center;">Ответим на вопросы, подготовим расчёт и организуем демонстрацию РУТТ ГТ-3 в любом регионе России</p>
+    </div>
+
+    <div class="contacts-inner">
+
+      <!-- ЛЕВАЯ КОЛОНКА: основные каналы связи -->
+      <div class="contacts-left">
+
+        <div class="contact-cards">
+
+          <div class="contact-card">
+            <div class="contact-card-icon">📞</div>
+            <div class="contact-card-body">
+              <div class="contact-card-label">Бесплатный номер по России</div>
+              <div class="contact-card-val">
+                <a href="tel:88006007190">8 (800) 600-71-90</a>
+              </div>
+              <div class="contact-card-note">Звонок бесплатный для всех регионов РФ</div>
+            </div>
+          </div>
+
+          <div class="contact-card">
+            <div class="contact-card-icon">✉️</div>
+            <div class="contact-card-body">
+              <div class="contact-card-label">Электронная почта</div>
+              <div class="contact-card-val">
+                <a href="mailto:les@rutt.pro">les@rutt.pro</a>
+              </div>
+              <div class="contact-card-note">Для любых обращений</div>
+            </div>
+          </div>
+
+          <div class="contact-card">
+            <div class="contact-card-icon">🕐</div>
+            <div class="contact-card-body">
+              <div class="contact-card-label">Часы работы</div>
+              <div class="contact-card-val">ПН–ПТ, 8:00–17:00</div>
+              <div class="contact-card-note">Часовой пояс: МСК+2 (Курган, Екатеринбург)</div>
+            </div>
+          </div>
+
+        </div>
+
+        <!-- Карточка менеджера -->
+        <div class="manager-card">
+          <div class="manager-label">Руководитель направления ЛПК</div>
+          <div class="manager-name">Худоконенко Роман Александрович</div>
+          <div class="manager-title">«НПФ» ТЕХНОТРАНС» — Лесопромышленный комплекс</div>
+          <a href="tel:+79091467687" class="manager-phone">
+            <span style="font-size:1rem;">📱</span>
+            +7 (909) 146-76-87
+          </a>
+        </div>
+
+      </div>
+
+      <!-- ПРАВАЯ КОЛОНКА: реквизиты -->
+      <div class="contacts-right">
+
+        <div class="requisites-block">
+          <div class="req-title">Реквизиты организации</div>
+
+          <div class="req-row">
+            <span class="req-key">Организация</span>
+            <span class="req-val"><b>ООО «НПФ «ТЕХНОТРАНС»</b></span>
+          </div>
+          <div class="req-row">
+            <span class="req-key">ИНН</span>
+            <span class="req-val">4501110957</span>
+          </div>
+          <div class="req-row">
+            <span class="req-key">ОГРН</span>
+            <span class="req-val">1044500021906</span>
+          </div>
+          <div class="req-row">
+            <span class="req-key">КПП</span>
+            <span class="req-val">450101001</span>
+          </div>
+          <div class="req-row" style="margin-top:4px;padding-top:12px;border-top:1px solid var(--border);">
+            <span class="req-key">Юр. адрес</span>
+            <span class="req-val">640004, Российская Федерация, Курганская обл., г. Курган, ул. Серёжи Тюленина, д. 80, стр. 1, офис 1</span>
+          </div>
+        </div>
+
+        <!-- Веб-ресурсы -->
+        <div style="margin-top:20px;background:var(--bg-card);border:1px solid var(--border);border-radius:var(--radius-lg);padding:20px 22px;">
+          <div class="req-title">Веб-ресурсы</div>
+          <div style="display:flex;flex-direction:column;gap:10px;">
+            <a href="https://технотранс.рф" target="_blank" rel="noopener" style="display:flex;align-items:center;gap:10px;font-size:.95rem;color:var(--yellow);font-weight:600;">
+              <span style="color:var(--text-dim);font-size:.85rem;">🌐</span> технотранс.рф
+            </a>
+            <a href="https://рутт.рф" target="_blank" rel="noopener" style="display:flex;align-items:center;gap:10px;font-size:.95rem;color:var(--yellow);font-weight:600;">
+              <span style="color:var(--text-dim);font-size:.85rem;">🌐</span> рутт.рф
+            </a>
+          </div>
+        </div>
+
+        <!-- CTA блок -->
+        <div style="margin-top:20px;background:rgba(229,184,74,.07);border:1px solid rgba(229,184,74,.25);border-radius:var(--radius-lg);padding:22px 24px;">
+          <div style="font-size:.9rem;color:var(--text-p);margin-bottom:16px;line-height:1.6;">Готовы предоставить коммерческое предложение, технические паспорта и условия поставки под любой регион России</div>
+          <a href="#form-section" class="btn btn-primary btn-sm" style="display:inline-block;">Запросить расчёт</a>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ══════════════ ФУТЕР ══════════════ -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-logo">
+      <span class="rutt-mark">RUTT</span>
+      <span style="color:var(--text-dim);font-size:.78rem;">Лесопожарный грунтомёт ГТ-3</span>
+    </div>
+    <div class="footer-copy">
+      © ООО «НПФ «ТЕХНОТРАНС», г. Курган<br>
+      Технические характеристики приведены по РЭ РУТТ ГТ-3 01.00.00.000 РЭ (2024 г.)
+    </div>
+    <div class="footer-links">
+      <a href="https://технотранс.рф" target="_blank" rel="noopener">технотранс.рф</a>
+      <a href="https://рутт.рф" target="_blank" rel="noopener">рутт.рф</a>
+      <a href="#form-section">Запросить расчёт</a>
+    </div>
+  </div>
+</footer>
+
+<!-- ══════════════ JS ══════════════ -->
+<script>
+(function () {
+  // ── Sticky header shadow ──
+  var header = document.getElementById('site-header');
+  window.addEventListener('scroll', function () {
+    header.style.boxShadow = window.scrollY > 48
+      ? '0 2px 24px rgba(0,0,0,.55)'
+      : 'none';
+  }, { passive: true });
+
+  // ── Form handler ──
+  var form    = document.getElementById('inquiry-form');
+  var success = document.getElementById('form-success');
+  var btnDemo = document.getElementById('btn-demo');
+
+  function submitForm(type) {
+    return function (e) {
+      if (e) e.preventDefault();
+      var org    = document.getElementById('f-org').value.trim();
+      var phone  = document.getElementById('f-phone').value.trim();
+      var region = document.getElementById('f-region').value.trim();
+      if (!org || !phone || !region) {
+        alert('Пожалуйста, заполните обязательные поля: Организация, Регион, Телефон.');
+        return;
+      }
+      form.style.display = 'none';
+      success.style.display = 'block';
+    };
+  }
+
+  form.addEventListener('submit', submitForm('calc'));
+  btnDemo.addEventListener('click', submitForm('demo'));
+
+  // ── Scroll reveal ──
+  if ('IntersectionObserver' in window) {
+    var items = document.querySelectorAll(
+      '.func-card, .aud-card, .app-card, .hw-step, .comm-card, .doc-card, .stat-item, .problem-card'
+    );
+    var io = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (entry.isIntersecting) {
+          entry.target.style.opacity = '1';
+          entry.target.style.transform = 'translateY(0)';
+          io.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.08 });
+
+    items.forEach(function (el) {
+      el.style.opacity = '0';
+      el.style.transform = 'translateY(18px)';
+      el.style.transition = 'opacity .45s ease, transform .45s ease';
+      io.observe(el);
+    });
+  }
+})();
+</script>
+
+<script>
+/* ─── КАРУСЕЛЬ ФОТО (fade, множественные экземпляры) ─── */
+function initCarousel(wrap) {
+  if (!wrap) return;
+  var slides = Array.from(wrap.querySelectorAll('.carousel-slide'));
+  var dots   = Array.from(wrap.querySelectorAll('.carousel-dot'));
+  var total  = slides.length;
+  var cur    = 0;
+  var timer;
+
+  /* инициализация: первый слайд активен */
+  slides.forEach(function(s, i) { s.classList.toggle('active', i === 0); });
+  if (dots.length) dots.forEach(function(d, i) { d.classList.toggle('active', i === 0); });
+
+  function goTo(n) {
+    slides[cur].classList.remove('active');
+    dots[cur] && dots[cur].classList.remove('active');
+    cur = (n + total) % total;
+    slides[cur].classList.add('active');
+    dots[cur] && dots[cur].classList.add('active');
+  }
+
+  function restart() {
+    clearInterval(timer);
+    timer = setInterval(function() { goTo(cur + 1); }, 4500);
+  }
+
+  var prevBtn = wrap.querySelector('.prev');
+  var nextBtn = wrap.querySelector('.next');
+  prevBtn && prevBtn.addEventListener('click', function() { goTo(cur - 1); restart(); });
+  nextBtn && nextBtn.addEventListener('click', function() { goTo(cur + 1); restart(); });
+  dots.forEach(function(d, i) {
+    d.addEventListener('click', function() { goTo(i); restart(); });
+  });
+
+  /* свайп */
+  var startX = 0;
+  wrap.addEventListener('touchstart', function(e) { startX = e.touches[0].clientX; }, {passive:true});
+  wrap.addEventListener('touchend',   function(e) {
+    var diff = startX - e.changedTouches[0].clientX;
+    if (Math.abs(diff) > 40) { goTo(cur + (diff > 0 ? 1 : -1)); restart(); }
+  }, {passive:true});
+
+  restart();
+}
+
+/* Запускаем все карусели на странице */
+document.querySelectorAll('.photo-carousel-wrap').forEach(initCarousel);
+</script>
+
+</body>
+</html>
